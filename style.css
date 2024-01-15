@@ -1,0 +1,63 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+}
+body,html{
+width: 100%;
+height: 100%;
+background: #f2f2f2;
+}
+#heading{
+    text-align: center;
+}
+.container{
+    width : 100%   ;  
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#attempt{
+    margin-left: 136px;
+}
+#attempt-1 ,  #attempt-2 , #attempt-3 ,#attempt-4{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+#guess-button{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+.buttons , .reset   ,  .play{
+    background-color: rgba(251, 131, 18, 0.87);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    font-size: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px 2px ;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+.play , .reset{
+    font-size: 14px;
+}
+#grater-or-less{
+    text-align: center;
+}
+button:hover{
+  scale: 1.06;
+}
